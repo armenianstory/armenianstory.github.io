@@ -1,0 +1,189 @@
+body {
+background-image:linear-gradient(to right, purple, pink);
+
+}
+    .navigationbar{
+        width:100%;
+        height:12%;
+        background-color:black;
+        position:fixed;
+        top:0;
+        left:0;
+    
+}
+.divu {
+width:13%;
+height:16%;
+    margin:2% 5%;
+    background-color:white;
+}
+#overlay {
+    width:0%;
+    height:100%;
+    z-index:99;
+    background-color:rgba(12,13,14,0.9);
+    background-size:cover;
+    position:fixed;
+    top:0;
+    right:0;
+    transition:0.8s;
+    
+    
+}
+#buti{
+    width:15%;
+    display:none;
+    height:15%;
+    font-size:150%;
+    transition:0.8s;
+    background:transparent;
+    border:none;
+    color:white;
+}
+.logo{
+     position:fixed;
+    left:5%;
+    font-size:35px;
+    color:white;
+    font-weight:800;
+    
+}
+li{
+    font-size:10vw;
+    margin-top:20vw;
+    margin-right:35%;
+    color:white;
+    
+    
+}
+#mahver{
+    display:none;
+    transition:1.5s;
+}
+li:hover{
+    
+    color:brown;
+}
+a{
+    text-decoration:none;
+    text-shadow:1px 1px;
+    color:black;
+}
+
+}
+.center{
+ float:right;
+} 
+h1{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+.img{
+	text-align: center;
+}
+img{
+	display: flex;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	border: 3px solid grey;
+	margin: 70px;
+	
+}
+img:hover{
+	transition: 2s ;
+	width: 200px;
+	margin: 15px;
+	padding: 5px;
+	border-radius: 20%;
+
+}
+ @media screen and (max-width:580px){
+	.MobileMenu{
+		display:none;
+	}
+} 
+.PcMenu{
+	display: flex;
+	width: 100%;
+	height: 70px;
+	background: black;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	content: center;
+	color: white;
+	padding-left: 1.9vh;
+}
+.PcMenu > h1{
+	text-align: center;
+	font-size: 10px;
+	display: flex;
+}
+.PcMenu > a:hover{
+	border-bottom: 3px solid grey;
+   text-decoration: none;
+
+  
+}
+a{
+	color: white;
+}
+/*@media screen and (max-width:570px){
+	.PcMenu{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width:570px){
+	.MobileMenu{
+		display: flex;
+	}
+}
+@media screen and (min-width:1111px){
+	.PcMenu{
+		display: flex;
+	}
+}
+@media screen and (min-width 1111px){
+	.MobileMenu{
+		display: none;
+	}
+} */
+
+
+/*@media only screen and (max-width: 570px) {
+	.MobileMenu{
+		display:flex;
+	}
+	.PcMemu{
+		display:none;
+	}
+}*/
+@media only screen and (max-width: 600px) {
+   .PcMenu{
+   display: none;
+   
+  }
+  .MobileMenu{
+  	display: flex;
+  }
+  
+}
+@media only screen and (min-width: 600px){
+	.PcMenu{
+		display: flex;
+	}
+	.MobileMenu{
+		display:none;
+	}
+}
+ footer{
+ 	display: flex;
+ 	text-align: center;
+ 	align-items: center;
+ 	justify-content: center;
+ }
